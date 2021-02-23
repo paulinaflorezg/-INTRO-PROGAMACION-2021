@@ -41,23 +41,3 @@ else :
   print(mensajeIguales)
 
 
-
-preguntaMedida = 'ingrese una medida en centimetros : '
-preguntaUnidad = ''' ingrese en que unidades desea transformar :
-  K - Kilometros
- M - Metros 
-   mm -milimetros
-'''
-
-medida = float(input(preguntaMedida))
-unidad = input(preguntaUnidad)
-
-metros = medida *10**-2
-kilometros = medida *10**-5
-milimetros = medida *10
-if (unidad == 'K'):
-  print (kilometros)
-elif (unidad == 'M'):
-  print (metros)
-elif (unidad == 'mm'):
-  print (milimetros)
