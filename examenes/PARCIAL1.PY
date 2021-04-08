@@ -43,3 +43,14 @@ def infoLista (Lista):
     print (f'el numero mas grande de la lista es el {mayor},el numero mas pequeño de la lista es el {menor},y el promedio es :{promedio}')
 numeroenteros = [2,4,6,8,10,12,14,16,18,20,40,60,80]
 infoLista(numeroenteros)
+#PREGUNTA 5
+def seriefibonacci (dato):
+    dato1 = 0
+    dato2 = 1
+    for elemento in range(dato-1):
+        secuencia = dato1+dato2
+        dato1 = dato2
+        dato2 = secuencia
+    return(dato1)
+posicion = seriefibonacci(3)
+print(posicion)
