@@ -31,7 +31,7 @@ class Student ():
         self.semestre = semestreIn
         print(f'Hola me llamo {self.nombre} tengo {self.edad} años mi id es {self.id} estudio {self.carrera} y estoy en el semestre {self.semestre}')
     def estudiar (self, materia):
-        print(f'Estoy estudiando la materia {materia} hoy')
+        print(f'Estoy estudiando la materia {materia}')
     def tiempoEstudio (self, tiempoEstudioMateria):
         print(f'Esta materia la veo {tiempoEstudioMateria} semestres')
 
@@ -51,7 +51,7 @@ class Nutri ():
         print(f'Hola me llamo {self.nombre} tengo {self.edad} años soy su nutricionista y estudie en el {self.universidad}')
     def imc (self, pesoIn, alturaIn):
         imc = pesoIn / (alturaIn)**2
-        print(f' mi indice de masa corporal es {imc} kilos')
+        print(f' cual es mi indice de masa corporal en {imc} kilos')
 
 nutri1 = Nutri( 'valentina', 24, 'UPb')
 nutri1.imc (45, 1.55)
