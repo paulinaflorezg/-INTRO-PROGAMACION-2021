@@ -9,7 +9,7 @@ class Torta ():
     def hablar (self):
         print (f' Esta torta es unica debido a sus caracteristicas ')
     def todosAtributos (self):
-        print(f''' esta torta tiene una forma {self.forma} que llama mucho la atencion
+        print(f''' esta torta tiene una forma {self.forma} 
                     El sabor es {self.sabor}
                     lo mejor de todo es la altura que es de {self.altura} metros
         ''')
