@@ -21,7 +21,7 @@ print (tortaD.hablar)
 tortaD.todosAtributos()
 
 print (60*'2')
-#---Estudiante---#
+
 class Student ():
     def __init__ (self, nombreIn, edadIn, idIn, carreraIn, semestreIn):
         self.nombre = nombreIn
@@ -41,7 +41,7 @@ estudiante.estudiar  ('quimica')
 estudiante.tiempoEstudio (5)
 
 print (60*'3')
-#---Nutricionista---#
+
 
 class Nutri ():
     def __init__ (self, nombreIn, edadIn, uniIn):
@@ -57,7 +57,7 @@ nutri1 = Nutri( 'valentina', 24, 'UPb')
 nutri1.imc (45, 1.55)
 
 print (60*'4')
-#---canguro---#
+
 
 class Cangu ():
     def __init__ (self, nombreIn, edadIn, idIn):
@@ -72,7 +72,7 @@ Cangurito = Cangu('lola', 26, 2453885)
 Cangurito.numeroSaltos (23)
 
 
-#----Instrumento musical----#
+
 
 class Instrumento ():
     def __init__ (self, nombreIn, tipoIn, colorIn):
