@@ -15,10 +15,10 @@ class Torta ():
         ''')
 
 
-tortaD = Torta('espiral', 'vainilla', 1)
-print (tortaD.hablar)
+torta1 = Torta('espiral', 'vainilla', 1)
+print (torta1.hablar)
 
-tortaD.todosAtributos()
+torta1.todosAtributos()
 
 print (60*'2')
 
