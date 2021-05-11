@@ -1,5 +1,5 @@
 #PUNTO 1
-import matplotlib.pyplot as plt
+Import matplotlib.pyplot as plt
 snacks = ['jumbo','palito de queso','galletas oreo','perro','helado']
 precio = [2000,4000,3500,5000,4000]
 plt.bar(snacks,precio)
