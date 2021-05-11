@@ -36,9 +36,10 @@ plt.show()
 #PUNTO 3
 print("Definicion ecg: El electrocardiograma es la representación visual de la actividad eléctrica del corazón en función del tiempo, que se obtiene.")
 print("Definicion ppg; La fotopletismografía o fotopletismograma es una técnica de pletismografía en la cual se utiliza un haz de luz para determinar el volumen de un órgano.")
-
-df = pd.read_csv("ecg.csv", sep=";")
-valor_ecg = df["valor"]
+import pandas as pd
+ecgdata = pd.read_csv("ecg.csv", sep=";")
+print(ecgdata)
+valor_ecg = ecgdata["valor"]
 
 plt.plot(valor_ecg)
 plt.title("Grafica ECG")
@@ -47,8 +48,10 @@ plt.ylabel("mV")
 plt.savefig("ecg.png")
 plt.show()
 
-df2 = pd.read_csv("ppg.csv", sep=";")
-valor_ppg = df2["valor"]
+import pandas as pd
+ecgdata2 = pd.read_csv("ppg.csv", sep=";")
+print(ecgdata2)
+valor_ppg = ecgdata2["valor"]
 
 plt.plot(valor_ppg)
 plt.title("Grafica PPG")
