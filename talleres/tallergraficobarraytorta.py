@@ -11,6 +11,7 @@ plt.show(
 
 #GRAFICO TORTA
 import matplotlib.pyplot as plt
+
 pielabels =['bogota', 'medellin ','cali', 'cartagena de indias']
 sizes = [30,25,15,10]
 explode = [0,0,0.1,0]
